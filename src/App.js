@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Intro from './components/Intro';
+import WorkShowcase from './components/WorkShowcase';
+import ThemeToggle from './components/ThemeToggle';
+import Navigation from './components/Navigation';
+import { projects, kaggleCompetitions, certifications } from './data';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Navigation />
+      <ThemeToggle />
+      <Intro />
+      <WorkShowcase
+        projects={projects}
+        kaggleCompetitions={kaggleCompetitions}
+        certifications={certifications}
+      />
     </div>
   );
-}
+};
 
 export default App;
+

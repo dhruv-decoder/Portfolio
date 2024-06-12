@@ -1,0 +1,64 @@
+.intro {
+  text-align: center;
+  background: linear-gradient(135deg, #a8a1a1 0%, #fad0c4 100%);
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.intro h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0073b1;
+  border: 1px solid #0073b1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #0073b1;
+  color: #fff;
+}
+
+[data-theme='dark'] .intro {
+  background: linear-gradient(135deg, #333 0%, #444 100%);
+  color: #fff;
+}
+
+[data-theme='dark'] .intro h1 {
+  color: #fff;
+}
+
+[data-theme='dark'] .intro p {
+  color: #ddd;
+}
+
+[data-theme='dark'] .social-links a {
+  color: #ff5722;
+  border-color: #ff5722;
+}
+
+[data-theme='dark'] .social-links a:hover {
+  background-color: #ff5722;
+  color: #fff;
+}
