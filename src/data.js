@@ -50,25 +50,25 @@ export const projects = [
     {
         title: 'MLX Stage 1 Regression: Predict my Marks!',
         description: 'Predict student marks based on various attributes like grades, demographics, social, and school-related features.',
-        rank: '3/44',
+        rank: 'rank:3/44',
         link: 'https://www.kaggle.com/c/mlx-stage-1-regression-predict-my-marks'
     },
     {
         title: 'Multi-Class Prediction of Obesity Risk',
         description: 'Predict obesity risk in individuals based on various factors, related to cardiovascular disease.',
-        rank: '84/3587',
+        rank: 'rank:84/3587',
         link: 'https://www.kaggle.com/c/Playground-Series-Season-4-Episode-2'
     },
     {
         title: 'Regression with an Abalone Dataset',
         description: 'Predict the age of abalone from various physical measurements.',
-        rank: '177/2606',
+        rank: 'rank:177/2606',
         link: 'https://www.kaggle.com/c/Playground-Series-Season-4-Episode-4'
     },
     {
         title: 'Regression with a Flood Prediction Dataset',
         description: 'Predict the probability of a region flooding based on various factors.',
-        rank: 'Top 50%',
+        rank: 'rank:under Top 50%',
         link: 'https://www.kaggle.com/c/flood-prediction'
     }
   ];
