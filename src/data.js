@@ -75,7 +75,7 @@ export const projects = [
   export const certifications = [
     {
         title: 'Machine Learning by Stanford University',
-        description: 'An online course by Andrew Ng that covers machine learning fundamentals.',
+        description: 'DeepLearning.AI',
         link: 'https://www.coursera.org/account/accomplishments/certificate/HIJKLMN'
     },
     {
@@ -95,7 +95,7 @@ export const projects = [
     },
     {
         title: 'Introduction to Machine Learning on AWS',
-        description: 'DeepLearning.AI',
+        description: 'AWS',
         link: 'https://www.coursera.org/account/accomplishments/certificate/123456'
     },
     {
@@ -104,13 +104,13 @@ export const projects = [
         link: 'https://www.udemy.com/certificate/789012'
     },
     {
-        title: 'Neural Networks and Deep Learning',
+        title: 'Generative AI,LLMs and Responsible AI',
         description: 'Google Cloud',
         link: 'https://www.coursera.org/account/accomplishments/certificate/345678'
     },
     {
-        title: 'Intermediate Machine Learning',
-        description: 'Kaggle',
+        title: 'Neural Networks and Deep Learning',
+        description: 'DeepLearning.AI',
         link: 'https://www.coursera.org/account/accomplishments/certificate/901234'
     }
   ];

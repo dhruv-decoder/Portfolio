@@ -21,7 +21,7 @@ const WorkShowcase = ({ projects, kaggleCompetitions, certifications }) => {
         {kaggleCompetitions.map((competition, index) => (
           <div key={index} className="work-item">
             <h3>{competition.title}</h3>
-            <p>{competition.description}</p>
+            <p>{competition.description}{competition.rank}</p>
             <a href={competition.link} target="_blank" rel="noopener noreferrer">View Competition</a>
           </div>
         ))}
