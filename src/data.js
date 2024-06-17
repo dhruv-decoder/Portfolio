@@ -8,20 +8,20 @@ export const projects = [
     {
         title: 'LLMs-Analytical-Reasoning-Performance',
         description: 'Using few-shot learning, chain of thought, and advanced prompting techniques to assess and improve the performance of LLM (Llama-2) in logical, analytical, and mathematical tasks. Developed for Jadavpur University ML Hackathon 24.',
-        techStack: ['Llama2', 'Prompt Engineering', 'Together AI', 'Kaggle'],
+        techStack: ['Llama2', 'Prompt Engineering', 'Together.AI', 'Kaggle'],
         link: 'https://github.com/dhruv-decoder/LLMs-analytical-reasoning-performance'
     },
     {
         title: 'Data Insights',
         description: 'Projects to discover data-driven stories, visualizations, and valuable insights using data analysis. Includes analysis on LEGO toys, Google Trends, college degree payback, Google Play Store, and Dr. Semmelweis Handwashing Discovery Analysis.',
         techStack: ['NumPy', 'Pandas', 'PIL', 'Scikit-Learn', 'Relational Databases'],
-        link: 'https://github.com/dhruv-decoder/LLMs-analytical-reasoning-performance/tree/main'
+        link: 'https://github.com/dhruv-decoder/Data-Insights'
     },
     {
         title: 'Python Development Projects',
         description: 'Showcasing a variety of projects using OOP principles, including web scraping, GUI-based Python games, and web development with Flask.',
         techStack: ['Python', 'OOP', 'Flask', 'Web Scraping', 'GUI'],
-        link: 'https://github.com/dhruv-decoder/Python-Development-Projects'
+        link: 'https://github.com/dhruv-decoder/python-dev'
     },
     {
         title: 'AI Interview Coach',
@@ -34,7 +34,20 @@ export const projects = [
         description: 'Predict customer churn in a subscription-based service. Utilizing historical data encompassing usage behavior and demographics, our goal is to craft a robust model that anticipates and mitigates customer churn. Extensive EDA, model training, tuning, and evaluation using ROC score and confusion matrix.',
         techStack: ['Python', 'Pandas', 'Scikit-Learn', 'Matplotlib'],
         link: 'https://github.com/dhruv-decoder/ML/blob/main/customer-churn-prediction.ipynb'
+    },
+    {
+        title: 'Mental Health Chatbot',
+        description: 'Worked on leveraging LLMs to assess global mental health.Contributed in Rag integration,LLama guard integration for Responsible ai.Helped in deploying on Hugging face spaces',
+        techStack: ['LLama-2', 'Rag', 'LLamaGuard', 'Hugging Face'],
+        link: 'https://github.com/phaneendra2429/Mental_Health_Chatbot'
+    },
+    {
+        title: 'WebApp for Menal Health Surveillance',
+        description: 'Emotion detection using machine learning models (video, photo, text, voice). Educational resources including book recommendations for topics related to depression, stress, anxiety, and other mental health issues.',
+        techStack: ['Python', 'Flask', 'Scikit-Learn', 'Natural Language Processing'],
+        link: 'https://github.com/adarsh-jha-dev/SIH'
     }
+
   ];
   export const kaggleCompetitions = [
     {
